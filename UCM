@@ -1,0 +1,27 @@
+
+User Access Verification
+
+Password: 
+COREbaba-11>en
+Password: 
+COREbaba-11#telnet 10.11.100.8
+Trying 10.11.100.8 ... Open
+
+
+User Access Verification
+
+Password: 
+CUCM-11>en
+Password: 
+CUCM-11#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+CUCM-11(config)#router ospf 1
+CUCM-11(config-router)#router-id 10.11.100.8
+CUCM-11(config-router)#network 10.11.100.0  0.0.0.255  area 0
+CUCM-11(config-router)#end
+CUCM-11#
+
+
+
+
+
