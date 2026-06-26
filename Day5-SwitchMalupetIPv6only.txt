@@ -387,7 +387,7 @@ end
 #sh int status err-disabled 
 TAAS: bounce/UP/down, bring BACK TO LIFE.
 config t
-int fa 0/3
+int fa 0/5
  shut
  no shut
 int fa 0/7
